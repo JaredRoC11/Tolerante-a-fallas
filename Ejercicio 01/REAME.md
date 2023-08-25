@@ -14,7 +14,7 @@ Un programador o desarrollador a veces puede malinterpretar la notación de sign
 Definición extraida de [Aqui](https://geekflare.com/es/difference-bug-defect-error-failure-fault-testing/)
 # ¿Qué es la latencia de un fallo?
 La latencia de un fallo es el tiempo que trasncurre desde que se produce un fallo hasta que se manifiesta un error
-Definición extraida de [Aqui](www.amazon.com)
+Definición extraida de [Aqui](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.infor.uva.es/~bastida/Arquitecturas%20Avanzadas/Tolerant.pdf)
 # ¿Qué es la latencia de un error?
  La causa del error es un fallo. El tiempo entre la percepción del error y el resultado fallido se conoce como latencia del error. 
  Cuando el error produce un fallo, se vuelve efectivo; antes de esto, el fallo es latente.
