@@ -6,5 +6,7 @@ La Computación Tolerante a Fallas es un campo crucial en la ingeniería de soft
 
 Cada carpeta en este repositorio representa una tarea o práctica específica, y contiene los archivos y recursos necesarios para abordarla. Los estudiantes encontrarán descripciones detalladas de las tareas, junto con cualquier código fuente, documentos y ejemplos pertinentes. Además, se proporcionarán soluciones o enfoques sugeridos para cada tarea después de su fecha de entrega, fomentando el aprendizaje colaborativo y el intercambio de conocimientos.
 
-Profesor ### MICHEL EMANUEL LOPEZ FRANCO
-Alumno ### Angel Jared Rodriguez Cortes
+Profesor 
+## Michel Emanuel Lopez Franco
+Alumno 
+## Angel Jared Rodriguez Cortes
