@@ -33,5 +33,5 @@ Airbrake es una plataforma de seguimiento de errores que ayuda a los desarrollad
 ### ELK Stack : 
 ELK (Elasticsearch, Logstash, Kibana) es una combinación de herramientas utilizadas para la recopilación, búsqueda y visualización de datos de registro. Aunque no está diseñado exclusivamente para el manejo de errores, puede utilizarse para rastrear y analizar problemas en aplicaciones.
 
-
-[Ayuware. (2022). Validación de datos: qué es, en qué consiste y cómo se aplica. Blog de Ayuware. ](https://www.ayuware.es/blog/validacion-de-datos/)
+# Referencias
+Ayuware. (2022). Validación de datos: qué es, en qué consiste y cómo se aplica. Blog de Ayuware.[ ](https://www.ayuware.es/blog/validacion-de-datos/)
