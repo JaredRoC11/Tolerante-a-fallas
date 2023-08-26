@@ -1,3 +1,15 @@
+Una parte importante para evitar errores sera validar los datos de entrada:
+
+## ¿Qué es la validación de datos?
+Se conoce como validación de datos al proceso que consigue evitar la introducción de datos incorrectos en una base de datos. Para ello, restringe el tipo de información que se puede introducir dentro de las celdas. Además, permite proveer instrucciones al usuario sobre cómo introducir la información.
+
+Se trata, por tanto, del proceso que asegura que un programa como puede ser Excel, funcione con datos correctos, útiles y limpios. Esto se consigue mediante las conocidas como “reglas de validación”, “restricciones de validación” o “rutinas de comprobación”.
+
+
+
+
+
+
 Varias empresas y proyectos han desarrollado sistemas para manejar errores en programación. Algunos ejemplos notables incluyen:
 
 ### Sentry : 
@@ -20,3 +32,6 @@ Airbrake es una plataforma de seguimiento de errores que ayuda a los desarrollad
 
 ### ELK Stack : 
 ELK (Elasticsearch, Logstash, Kibana) es una combinación de herramientas utilizadas para la recopilación, búsqueda y visualización de datos de registro. Aunque no está diseñado exclusivamente para el manejo de errores, puede utilizarse para rastrear y analizar problemas en aplicaciones.
+
+
+[Ayuware. (2022). Validación de datos: qué es, en qué consiste y cómo se aplica. Blog de Ayuware. ](https://www.ayuware.es/blog/validacion-de-datos/)
