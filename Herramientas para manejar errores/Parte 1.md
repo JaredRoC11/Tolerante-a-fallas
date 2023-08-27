@@ -52,14 +52,12 @@ Cuando ocurre un error, o una excepción como la llamamos, Python normalmente se
 
 Estas excepciones se pueden manejar usando la trydeclaración:
 
-´´´
-El trybloque generará una excepción porque xno está definido:
+´´´ El trybloque generará una excepción porque xno está definido:
 
 try:
   print(x)
 except:
   print("An exception occurred")
-´´´ 
 
 
 Varias empresas y proyectos han desarrollado sistemas para manejar errores en programación. Algunos ejemplos notables incluyen:
