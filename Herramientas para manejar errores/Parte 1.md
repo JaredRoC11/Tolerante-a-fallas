@@ -107,4 +107,3 @@ ELK (Elasticsearch, Logstash, Kibana) es una combinación de herramientas utiliz
 
 # Referencias
 Ayuware. (2022). Validación de datos: qué es, en qué consiste y cómo se aplica. Blog de Ayuware.[ ](https://www.ayuware.es/blog/validacion-de-datos/)
-
