@@ -40,13 +40,13 @@ Lo que hacen estos IF es comprobar que se ingresen datos y que estos sean entero
       
 Una estructura muy comun para lo que seria un Try-Catch esta estructura nos permite manejar de una mejor manera las excepciones, veremos como es su implimentacion en Python.
 
-El trybloque le permite probar un bloque de código en busca de errores.
+El try bloque le permite probar un bloque de código en busca de errores.
 
-El exceptbloque le permite manejar el error.
+El except bloque le permite manejar el error.
 
-El elsebloque te permite ejecutar código cuando no hay ningún error.
+El else bloque te permite ejecutar código cuando no hay ningún error.
 
-El finallybloque le permite ejecutar código, independientemente del resultado de los bloques try y except.
+El finally bloque le permite ejecutar código, independientemente del resultado de los bloques try y except.
 
 ### try
 Cuando ocurre un error, o una excepción como la llamamos, Python normalmente se detendrá y generará un mensaje de error.
@@ -61,7 +61,7 @@ Estas excepciones ses pueden manejar usando la trydeclaración:
           print("An exception occurred")
 ```
 ### Else
-Puede utilizar la elsepalabra clave para definir un bloque de código que se ejecutará si no se generaron errores:
+Puede utilizar la else palabra clave para definir un bloque de código que se ejecutará si no se generaron errores:
 ```En este ejemplo, el try bloque no genera ningún error:
 
         try:
@@ -72,7 +72,7 @@ Puede utilizar la elsepalabra clave para definir un bloque de código que se eje
           print("Nothing went wrong")
 ```
 ### Finally 
-El finallybloque, si se especifica, se ejecutará independientemente de si el bloque try genera un error o no.
+El finally bloque, si se especifica, se ejecutará independientemente de si el bloque try genera un error o no.
 ```
         try:
           print(x)
@@ -107,3 +107,4 @@ ELK (Elasticsearch, Logstash, Kibana) es una combinación de herramientas utiliz
 
 # Referencias
 Ayuware. (2022). Validación de datos: qué es, en qué consiste y cómo se aplica. Blog de Ayuware.[ ](https://www.ayuware.es/blog/validacion-de-datos/)
+Python Try Except. (s. f.). w3 schools. Recuperado 27 de agosto de 2023, de [](https://www.w3schools.com/python/python_try_except.asp)
