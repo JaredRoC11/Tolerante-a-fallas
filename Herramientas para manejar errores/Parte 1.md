@@ -5,6 +5,9 @@ Se conoce como validación de datos al proceso que consigue evitar la introducci
 
 Se trata, por tanto, del proceso que asegura que un programa como puede ser Excel, funcione con datos correctos, útiles y limpios. Esto se consigue mediante las conocidas como “reglas de validación”, “restricciones de validación” o “rutinas de comprobación”.
 
+Para hacer estas comprobaciones de entradas podemos utilizar las sentencias IF/ELSE en la siguiente parte de codigo usamos solo la sentencia IF pero es un buen ejemplo en C#
+Lo que hacen estos IF es comprobar que se ingresen datos y que estos sean enteros y positivos.
+
 ```private void button_genera_Click(object sender, EventArgs e)
         {
             if (numero_procesos.Text == "") //Si el campo es vacío el botón no debe realizar nada para evitar errores
@@ -34,7 +37,7 @@ Se trata, por tanto, del proceso que asegura que un programa como puede ser Exce
         }```
 
       
-
+Una estructura muy comun para lo que seria un ''Try-Catch'' 
 
 
 Varias empresas y proyectos han desarrollado sistemas para manejar errores en programación. Algunos ejemplos notables incluyen:
