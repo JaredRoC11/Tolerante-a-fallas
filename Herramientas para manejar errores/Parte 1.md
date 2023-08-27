@@ -35,6 +35,7 @@ Lo que hacen estos IF es comprobar que se ingresen datos y que estos sean entero
             int numProcesos = (int)procesos; //Numero de procesos en enteros
             generarDatos(numProcesos); //Vamos a crear los datos de los lotes y procesos
         }
+```
 
       
 Una estructura muy comun para lo que seria un Try-Catch esta estructura nos permite manejar de una mejor manera las excepciones, veremos como es su implimentacion en Python.
