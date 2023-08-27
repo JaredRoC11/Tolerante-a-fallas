@@ -6,7 +6,35 @@ Se conoce como validación de datos al proceso que consigue evitar la introducci
 Se trata, por tanto, del proceso que asegura que un programa como puede ser Excel, funcione con datos correctos, útiles y limpios. Esto se consigue mediante las conocidas como “reglas de validación”, “restricciones de validación” o “rutinas de comprobación”.
 
 
+private void button_genera_Click(object sender, EventArgs e)
+        {
+            if (numero_procesos.Text == "") //Si el campo es vacío el botón no debe realizar nada para evitar errores
+            {
+                MessageBox.Show("Ingrese un numero mayor a 0");
+                return;
+            }
 
+            float procesos; //Para luego comrpobar si es negativo o no
+            bool isNumber = float.TryParse(numero_procesos.Text, out procesos); //un booleano para comprobar que sea un numero
+
+            if (!isNumber) //No se pueden ingresar letras
+            {
+                MessageBox.Show("Procesos debe contener un numero");
+            }
+            if (procesos <= 0)//No pueden ingresarse números negativos
+            {
+                MessageBox.Show("Procesos debe ser mayor a 0");
+                numero_procesos.Text = "";
+                return;
+            }
+
+            MessageBox.Show("Valor correcto"); //Indica que no ha habido ningún problema
+            
+            int numProcesos = (int)procesos; //Numero de procesos en enteros
+            generarDatos(numProcesos); //Vamos a crear los datos de los lotes y procesos
+        }
+
+      
 
 
 
