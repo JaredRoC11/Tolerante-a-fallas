@@ -50,7 +50,7 @@ El finallybloque le permite ejecutar código, independientemente del resultado d
 ### try
 Cuando ocurre un error, o una excepción como la llamamos, Python normalmente se detendrá y generará un mensaje de error.
 
-Estas excepciones se pueden manejar usando la trydeclaración:
+Estas excepciones ses pueden manejar usando la trydeclaración:
 
 
 Varias empresas y proyectos han desarrollado sistemas para manejar errores en programación. Algunos ejemplos notables incluyen:
