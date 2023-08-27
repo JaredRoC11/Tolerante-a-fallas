@@ -52,7 +52,7 @@ Cuando ocurre un error, o una excepción como la llamamos, Python normalmente se
 
 Estas excepciones se pueden manejar usando la trydeclaración:
 
-´´´ El trybloque generará una excepción porque xno está definido:
+```El trybloque generará una excepción porque x no está definido:
 
 try:
   print(x)
