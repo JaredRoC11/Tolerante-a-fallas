@@ -37,7 +37,29 @@ Lo que hacen estos IF es comprobar que se ingresen datos y que estos sean entero
         }```
 
       
-Una estructura muy comun para lo que seria un ''Try-Catch'' 
+Una estructura muy comun para lo que seria un Try-Catch esta estructura nos permite manejar de una mejor manera las excepciones, veremos como es su implimentacion en Python.
+
+El trybloque le permite probar un bloque de código en busca de errores.
+
+El exceptbloque le permite manejar el error.
+
+El elsebloque te permite ejecutar código cuando no hay ningún error.
+
+El finallybloque le permite ejecutar código, independientemente del resultado de los bloques try y except.
+
+### try
+Cuando ocurre un error, o una excepción como la llamamos, Python normalmente se detendrá y generará un mensaje de error.
+
+Estas excepciones se pueden manejar usando la trydeclaración:
+
+´´´
+El trybloque generará una excepción porque xno está definido:
+
+try:
+  print(x)
+except:
+  print("An exception occurred")
+´´´ 
 
 
 Varias empresas y proyectos han desarrollado sistemas para manejar errores en programación. Algunos ejemplos notables incluyen:
