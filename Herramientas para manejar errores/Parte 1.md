@@ -60,7 +60,27 @@ Estas excepciones ses pueden manejar usando la trydeclaración:
         except:
           print("An exception occurred")
 ```
+### Else
+Puede utilizar la elsepalabra clave para definir un bloque de código que se ejecutará si no se generaron errores:
+```En este ejemplo, el try bloque no genera ningún error:
 
+        try:
+          print("Hello")
+        except:
+          print("Something went wrong")
+        else:
+          print("Nothing went wrong")
+```
+### Finally 
+El finallybloque, si se especifica, se ejecutará independientemente de si el bloque try genera un error o no.
+```
+        try:
+          print(x)
+        except:
+          print("Something went wrong")
+        finally:
+          print("The 'try except' is finished")
+```
 
 Varias empresas y proyectos han desarrollado sistemas para manejar errores en programación. Algunos ejemplos notables incluyen:
 
