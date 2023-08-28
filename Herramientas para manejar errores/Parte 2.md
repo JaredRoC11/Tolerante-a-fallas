@@ -11,7 +11,8 @@ y registrar pruebas fisicas. El fragmento que mostrare es para validar las entra
 
 Esta funcion nos ayuda a validar que los campos no esten vacios:
 
-```function ValidarCampos() {
+```
+      function ValidarCampos() {
             var mensaje = "Faltan campos por llenar";
             var contra = ValidarContrasena();
             
