@@ -24,3 +24,8 @@ Cuando el registro de defectos se cierra después de aplicar la corrección, se 
 * Antigüedad ODC: Indica la antigüedad del código que tuvo el defecto en términos de su historial de desarrollo (Código base de una versión anterior, Código nuevo para la versión actual, etc.),
 
 Estos ocho atributos de defecto, en conjunto, capturan la semántica de un defecto desde todas las perspectivas relevantes. El documento ODC para Diseño y Código brinda detalles relacionados con el esquema ODC original, los pasos reales involucrados en la clasificación de defectos y recomendaciones para la implementación del proceso de recolección de defectos.
+
+# Referencias
+- Software Quality Exp. (2018, 21 marzo). What is Orthogonal Defect Classification (ODC)? By Vivek Vasudeva. Medium. https://medium.com/@SWQuality3/what-is-orthogonal-defect-classification-odc-by-vivek-vasudeva-f2e49917f478
+- Orthogonal Defect Classification (Archival) - IBM. (s. f.). https://researcher.watson.ibm.com/researcher/view_group_subpage.php?id=5020
+
