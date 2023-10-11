@@ -1,5 +1,5 @@
-### Prefecte con python
-De inicio ejecutaremos un video que se tomo como referencia para extraer el codigo.
+Para este trabajo usaremos Python, sqlite3 y prefect.
+Iniciaremos mostrando el código que fue tomado de referencia de un video, luego mostraremos lo que nos dio la ejecución de este. 
 
 ```
 import requests
@@ -54,3 +54,13 @@ def my_etl_flow():
 
 my_etl_flow._run()
 ```
+![image](https://github.com/JaredRoC11/Tolerante-a-fallas/assets/106403018/9ee640c2-bcc7-4154-8c52-9692889eee66)
+
+•	A grandes rasgos el código cuando es ejecutado toma datos del link que se observa en el código, que en si es información de consumidores.
+•	 Cuando esta información es obtenida la trasforma en datos un poco más legibles.
+•	Y por último toda esta información trasformada es guardada en una base de datos SQLite
+Aqui accedemos a la base de datos
+
+![image](https://github.com/JaredRoC11/Tolerante-a-fallas/assets/106403018/bb196096-29a7-4be8-9263-ab2f78e7ca6e)
+![image](https://github.com/JaredRoC11/Tolerante-a-fallas/assets/106403018/1d0d401a-23e4-4b93-947d-75d18a48a735)
+
