@@ -1,7 +1,7 @@
 ### Prefecte con python
 De inicio ejecutaremos un video que se tomo como referencia para extraer el codigo.
 
-'''
+```
 import requests
 import json
 from collections import namedtuple
@@ -53,4 +53,4 @@ def my_etl_flow():
     store_complaints(parsed)
 
 my_etl_flow._run()
-'''
+```
