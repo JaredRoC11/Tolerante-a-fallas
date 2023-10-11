@@ -64,5 +64,5 @@ Aqui accedemos a la base de datos
 ![image](https://github.com/JaredRoC11/Tolerante-a-fallas/assets/106403018/bb196096-29a7-4be8-9263-ab2f78e7ca6e)
 ![image](https://github.com/JaredRoC11/Tolerante-a-fallas/assets/106403018/1d0d401a-23e4-4b93-947d-75d18a48a735)
 
-###Referencias
+### Referencias
 https://youtu.be/TlawR_gi8-Y?list=PLMGWGsnelbxcHmA5cVRq8a39S9s_gxAMq
