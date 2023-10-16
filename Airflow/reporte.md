@@ -10,33 +10,33 @@ Después de esto buscamos en la tienda de Windows una distribución de Linux que
 
 Cuando abrimos este nos pedirá un usuario y contraseña, seguido de eso haremos uso de los siguientes comandos: 
 '''
-# add-repository universe
-sudo apt-add-repository universe 
-
-# add-repository universe
-sudo apt-get update 
-
-# revision version python
-python3 --version
-
-# instalacion pip
-sudo apt-get install python3-pip 
-
-# exportar variable
-export SLUGIFY_USES_TEXT_UNIDECODE=yes 
-
-# instalacion sql alquemy compatible con airflow 2.20
-sudo pip install SQLAlchemy==1.3.24
-
-# instalacion airflow 
-sudo pip install apache-airflow 
-
-# revision version airflow
-airflow version
-
-# inicializacion de la base de datos
-airflow db init
-
-# creacion del usuario para login
-airflow users  create --role Admin --username jorgecardona --email jorgecardona@email.com --firstname jorge --lastname cardona --password jorgecardona
+  # add-repository universe
+  sudo apt-add-repository universe 
+  
+  # add-repository universe
+  sudo apt-get update 
+  
+  # revision version python
+  python3 --version
+  
+  # instalacion pip
+  sudo apt-get install python3-pip 
+  
+  # exportar variable
+  export SLUGIFY_USES_TEXT_UNIDECODE=yes 
+  
+  # instalacion sql alquemy compatible con airflow 2.20
+  sudo pip install SQLAlchemy==1.3.24
+  
+  # instalacion airflow 
+  sudo pip install apache-airflow 
+  
+  # revision version airflow
+  airflow version
+  
+  # inicializacion de la base de datos
+  airflow db init
+  
+  # creacion del usuario para login
+  airflow users  create --role Admin --username jorgecardona --email jorgecardona@email.com --firstname jorge --lastname cardona --password jorgecardona
 '''
