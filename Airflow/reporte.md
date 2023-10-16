@@ -9,6 +9,44 @@ Buscamos la opción de “Activar o desactivar características de Windows” y 
 Después de esto buscamos en la tienda de Windows una distribución de Linux que esté disponible yo en mi caso use Ubuntu.
 
 Cuando abrimos este nos pedirá un usuario y contraseña, seguido de eso haremos uso de los siguientes comandos: 
-´´´
-hola
-´´´
+
+
+```
+# add-repository universe
+  sudo apt-add-repository universe 
+  
+  # add-repository universe
+  sudo apt-get update 
+  
+  # revision version python
+  python3 --version
+  
+  # instalacion pip
+  sudo apt-get install python3-pip 
+  
+  # exportar variable
+  export SLUGIFY_USES_TEXT_UNIDECODE=yes 
+  
+  # instalacion sql alquemy compatible con airflow 2.20
+  sudo pip install SQLAlchemy==1.3.24
+  
+  # instalacion airflow 
+  sudo pip install apache-airflow 
+  
+  # revision version airflow
+  airflow version
+  
+  # inicializacion de la base de datos
+  airflow db init
+  
+  # creacion del usuario para login
+  airflow users  create --role Admin --username username1 --email user@email.com --firstname user --lastname name --password contraseña
+```
+
+En el ultimo comando tenemos que crear cada dato para despues entrar a Airflow
+
+```
+# iniciar el servicio de airflow
+airflow webserver -p 7890
+```
+Ini
