@@ -9,7 +9,7 @@ Buscamos la opción de “Activar o desactivar características de Windows” y 
 Después de esto buscamos en la tienda de Windows una distribución de Linux que esté disponible yo en mi caso use Ubuntu.
 
 Cuando abrimos este nos pedirá un usuario y contraseña, seguido de eso haremos uso de los siguientes comandos: 
-'''
+´´´
   # add-repository universe
   sudo apt-add-repository universe 
   
@@ -39,4 +39,4 @@ Cuando abrimos este nos pedirá un usuario y contraseña, seguido de eso haremos
   
   # creacion del usuario para login
   airflow users  create --role Admin --username jorgecardona --email jorgecardona@email.com --firstname jorge --lastname cardona --password jorgecardona
-'''
+´´´
