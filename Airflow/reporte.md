@@ -49,4 +49,8 @@ En el ultimo comando tenemos que crear cada dato para despues entrar a Airflow
 # iniciar el servicio de airflow
 airflow webserver -p 7890
 ```
-
+Con este comando iniciamos el servidor en el puerto que queramos
+![image](https://github.com/JaredRoC11/Tolerante-a-fallas/assets/106403018/96b9cbeb-b5e4-4309-a3b2-5eaa40fccddf)
+Ponemos "http://localhost:puertoElegido"
+![image](https://github.com/JaredRoC11/Tolerante-a-fallas/assets/106403018/e2f0287f-b689-41c0-af52-1636ac052a1a)
+Con los datos que creamos ingresamos al servidor.
