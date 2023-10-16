@@ -49,4 +49,4 @@ En el ultimo comando tenemos que crear cada dato para despues entrar a Airflow
 # iniciar el servicio de airflow
 airflow webserver -p 7890
 ```
-Ini
+
