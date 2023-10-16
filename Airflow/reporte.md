@@ -55,3 +55,24 @@ Con este comando iniciamos el servidor en el puerto que queramos
 Ponemos http://localhost:puertoElegido
 ![image](https://github.com/JaredRoC11/Tolerante-a-fallas/assets/106403018/e2f0287f-b689-41c0-af52-1636ac052a1a)
 Con los datos que creamos ingresamos al servidor.
+![image](https://github.com/JaredRoC11/Tolerante-a-fallas/assets/106403018/c379d03d-8745-4c9c-85c1-0d0a9af7c780)
+
+Asi se veria cuando entramos al servidor.
+
+```
+# iniciar el agendador de tareas
+airflow scheduler
+```
+Metemos este comando antes de activar alguna tarea
+
+![image](https://github.com/JaredRoC11/Tolerante-a-fallas/assets/106403018/2fd81e4f-ab32-405a-8402-17905274bf61)
+
+Seleccionamos alguno y apretamos el boto donde se muestra la fecha del ratón.
+
+![image](https://github.com/JaredRoC11/Tolerante-a-fallas/assets/106403018/d74d840d-bb34-4019-831a-9f0c7f1d7200)
+
+Ahora la tarea ya pasa a la parte de activo.
+Y si lo seleccionamos podremos ver detalles de este.
+![image](https://github.com/JaredRoC11/Tolerante-a-fallas/assets/106403018/bff9b0af-b72b-4775-b06e-698edeff936f)
+![image](https://github.com/JaredRoC11/Tolerante-a-fallas/assets/106403018/8b727249-3080-400d-81b4-48a67d7d4c0e)
+
